@@ -1,0 +1,18 @@
+{
+    "name": "Alexiush.MLAgentsConfiguration",
+    "rootNamespace": "",
+    "references": [
+        "GUID:7053a494724a448f18e88a849a83c098",
+        "GUID:85e0054f8e64b47309646d35f8851f81",
+        "GUID:49b49c76ee64f6b41bf28ef951cb0e50"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

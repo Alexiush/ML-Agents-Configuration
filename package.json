@@ -1,0 +1,30 @@
+{
+  "name": "com.alexiush.ml-agents-config",
+  "displayName": "ML-Agents Configuration",
+  "version": "1.0.0",
+  "description": "Automated generation of YAML config files for training Unity ML-Agents",
+  "unity": "2022.3",
+  "unityRelease": "40f1",
+  "licensesUrl": "https://github.com/Alexiush/MLAgentsConfig/blob/main/LICENSE.md",
+  "dependencies": {
+    "com.mackysoft.serializereference-extensions": "1.6.1",
+	"jp.hadashikick.vyaml":  "0.28.1",
+	"com.unity.ml-agents": "3.0.0"
+  },
+  "keywords": [
+    "ML-Agents",
+	"Configuration"
+  ],
+  "author": {
+    "name": "Alexiush",
+    "email": "streltsov2609@gmail.com",
+    "url": "https://github.com/Alexiush"
+  },
+  "samples": [
+    {
+      "displayName": "Roller",
+      "description": "Training basic roller agent with config generated automatically",
+      "path": "Samples~/Roller"
+    }
+  ]
+}

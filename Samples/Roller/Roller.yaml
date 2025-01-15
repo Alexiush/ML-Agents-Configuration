@@ -1,0 +1,58 @@
+behaviors: 
+  RollerBall: 
+    trainer_type: ppo
+    hyperparameters: 
+      learning_rate: 0.0003
+      batch_size: 32
+      buffer_size: 320
+      learning_rate_schedule: linear
+      beta: 0.005
+      epsilon: 0.2
+      beta_schedule: linear
+      epsilon_schedule: linear
+      lambd: 0.95
+      num_epoch: 3
+      shared_critic: false
+    network_settings: 
+      hidden_units: 128
+      num_layers: 2
+      normalize: false
+      visual_encode_type: simple
+      conditioning_type: hyper
+    summary_freq: 10000
+    time_horizon: 64
+    max_steps: 50000
+    keep_checkpoints: 5
+    even_checkpoints: false
+    checkpoint_interval: 500000
+    init_path: null
+    threaded: false
+env_settings: 
+  env_path: null
+  env_args: null
+  base_port: 5005
+  num_envs: 1
+  timeout_wait: 60
+  seed: -1
+  max_lifetime_restarts: 10
+  restarts_rate_limit_n: 1
+  restarts_rate_limit_period_s: 60
+engine_settings: 
+  width: 84
+  height: 84
+  quality_level: 5
+  time_scale: 20
+  target_frame_rate: -1
+  capture_frame_rate: 60
+  no_graphics: false
+  no_graphics_monitor: false
+checkpoint_settings: 
+  initialize_from: null
+  load_model: false
+  resume: false
+  force: false
+  train_model: false
+  inference: false
+torch_settings: 
+  device: null
+environment_parameters: {}
