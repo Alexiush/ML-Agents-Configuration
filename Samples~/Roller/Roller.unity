@@ -821,7 +821,7 @@ MonoBehaviour:
     Behaviors:
     - BehaviorId: RollerBall
       Trainer:
-        rid: 8715734464116817945
+        rid: -2
       NetworkSettings:
         HiddenUnits: 128
         NumLayers: 2
@@ -881,21 +881,8 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
-    - rid: 8715734464116817945
-      type: {class: PPOTrainer, ns: MLAgents.Configuration, asm: Assembly-CSharp}
-      data:
-        PPOHyperparameters:
-          LearningRate: 0.0003
-          BatchSize: 32
-          BufferSize: 320
-          LearningRateSchedule: 0
-          Beta: 0.005
-          Epsilon: 0.2
-          BetaSchedule: 0
-          EpsilonSchedule: 0
-          Lambd: 0.95
-          NumEpoch: 3
-          SharedCritic: 0
+    - rid: -2
+      type: {class: , ns: , asm: }
 --- !u!114 &1890241261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -908,12 +895,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed664ac36e0cbcb4bbe16231881c9be8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <BehaviorName>k__BackingField:
-    Reference: {fileID: 1615299213}
+  <BehaviorName>k__BackingField: {Reference: {fileID: 1615299213}}
   <Behavior>k__BackingField:
     BehaviorId: RollerBall
     Trainer:
-      rid: 8715734464116817942
+      rid: -2
     NetworkSettings:
       HiddenUnits: 128
       NumLayers: 2
@@ -973,21 +959,8 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
-    - rid: 8715734464116817942
-      type: {class: PPOTrainer, ns: MLAgents.Configuration, asm: Assembly-CSharp}
-      data:
-        PPOHyperparameters:
-          LearningRate: 0.0003
-          BatchSize: 32
-          BufferSize: 320
-          LearningRateSchedule: 0
-          Beta: 0.005
-          Epsilon: 0.2
-          BetaSchedule: 0
-          EpsilonSchedule: 0
-          Lambd: 0.95
-          NumEpoch: 3
-          SharedCritic: 0
+    - rid: -2
+      type: {class: , ns: , asm: }
 --- !u!4 &1890241262
 Transform:
   m_ObjectHideFlags: 0
